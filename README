@@ -1,0 +1,14 @@
+Finder is my hobby project. Two main purpurses
+* Windows search function really sucks. I want make a simple application to use.
+* Play with Scala
+
+
+package, one zip file will be generated like search-0.1.zip
+    mvn clean appassembler:assemble package -DskipTests
+
+execute
+    bin/search
+
+add to path
+    ~/.bash_profile
+    PATH=${PATH}:${HOME}/scala/search/search-0.1/bin

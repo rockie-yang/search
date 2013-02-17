@@ -1,0 +1,9 @@
+*.class
+.metadata
+.classpath
+.project
+out
+target
+.idea
+*.zip
+search*/*
